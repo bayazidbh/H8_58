@@ -1,0 +1,105 @@
+Publication-Grade Plot
+Projects Concepts
+Approaching a Project
+
+Mengembangkan aplikasi dalam skala besar tidaklah mudah. Jangan langsung terjun dan mencoba untuk menyelesaikan semuanya sekaligus. Seperti petuah bijak berikut:
+
+"A goal without a plan is just a wish."
+
+Mulailah dengan rencana! Berikut beberapa langkah yang sebaiknya diikuti ketika mengembangkan aplikasi:
+
+    buatlah outline langkah demi langkah yang dibutuhkan untuk membangun aplikasi
+    kemudian tulis pseudocode
+    kembangkan sintaks satu per satu
+
+Dan sebelum submit, pastikan:
+
+    semua bugs sudah dibasmi
+    cek rubrik dan pastikan proyek kamu sudah memenuhi semua requirements
+
+Tidak usah terburu-buru dan latihan terus untuk mendapatkan semua pengetahuan baru. Kita semua bisa! 🙌
+Project Overview
+
+The aim of this projects is to introduce you to data visualization with Python as concrete and as consistent as possible. Using what you’ve learned; download the London Crime Dataset from Kaggle. This dataset is a record of crime in major metropolitan areas, such as London, occurs in distinct patterns. This data covers the number of criminal reports by month, LSOA borough, and major/minor category from Jan 2008-Dec 2016.
+
+This dataset contains:
+
+    lsoa_code: this represents a policing area
+    borough: the london borough for which the statistic is related
+    major_category: the major crime category
+    minor_category: the minor crime category
+    value: the count of the crime for that particular borough, in that particular month
+    year: the year of the summary statistic
+    month: the month of the summary statistic
+
+Formulate a question and derive a statistical hypothesis test to answer the question. You have to demonstrate that you’re able to make decisions using data in a scientific manner. And the important things, Visualized the data. Examples of questions can be:
+
+    What is the change in the number of crime incidents from 2011 to 2016?
+    What were the top 3 crimes per borough in 2016?
+
+Get the Project
+
+Kamu memiliki dua opsi untuk memulai proyek:
+
+    download dari starter notebook
+    mulai dari awal dengan membuat file jupyter notebookmu sendiri.
+
+Starter Notebook
+
+Kode di starter notebook sudah termasuk markup Python yang dapat digunakan tetapi menghilangkan Algoritma yang diperlukan untuk menyelesaikan proyek. Hal ini akan memudahkan kamu bila kamu tidak ingin menulis semuanya dari awal. Kode yang telah ada akan membantu mengarahkan kamu untuk menyelesaikan aplikasi, tetapi tetap tanpa fungsi interaktif.
+Starting from Scratch
+
+Jika kamu memutuskan memulai dari awal, kamu dapat membuat file jupyter notebook kamu tetapi kami merekomendasikan untuk men-download starter notebook.
+Project Instructions & Rubric
+How will this project be evaluated
+
+Proyek kamu akan dinilai oleh Hacktiv8 PTP Program Code Reviewer berdasarkan rubrik. Pastikan untuk me-review proyek kamu terlebih dahulu sebelum submit. Semua kriteria harus terpenuhi untuk mendapatkan nilai.
+
+Rubrik menjadi sumber utama ketika mengembangkan proyek. Bookmark halaman rubrik sehingga lebih mudah diakses!
+Submission Instructions
+
+Jika kamu memilih untuk mengembangkan proyek kamu dengan komputer pribadi, kamu perlu meng-upload file kamu ke githubmu.
+Projects Instructions
+
+Kamu bisa memilih untuk memulai sendiri dari awal dengan Notebook atau memulai dengan pre-compiled Notebook yang dapat kamu download dibawah. Jika kamu memilih untuk mengembangkan proyek kamu dengan komputer pribadi, kamu perlu mengikuti tahap-tahap berikut ini:
+
+    Download Dataset yang diperlukan dari kaggle di sini (https://www.kaggle.com/jboysen/london-crime), lalu save ke folder /dataset.
+    Buat Notebook baru, lalu rename menjadi “PYTN_Assgn_1_<batch_number>_<nama>".
+    Lakukan Data Visualization kepada dataset seperti Line, Area, Scatter Plot, Box Plot, Word Clouds, Folium Maps dan metode Visualization Plot yang telah kamu pelajari di couse ini. Scroll ke bawah, ke bagian Project Rubric untuk melihat kriteria yang harus dipenuhi. Kamu dapat memilih kolom apa saja yang kamu inginkan.
+    Kumpulkan informasi menggunakan analisis kamu.
+
+Penting!
+
+Push assignment yang telah kalian buat ke dalam akun github kalian masing-masing.
+
+Buat sebuah file .txt dengan notepad atau code editor pilihan kalian dan masukan link repository assignment kalian dalam file .txt tersebut. Unggah file .txt tersebut pada Google Classroom.
+
+Submission Assignment valid jika link repository assignment kalian dapat diakses untuk kemudian dinilai oleh Hacktiv8 PTP Program Code Reviewer.
+Projects Rubric
+
+Code Review
+Criteria	Meet Expectations
+Area Plot	Mengimplementasikan Area Plot Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik
+Histogram	Mengimplementasikan Histogram Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Bar Chart	Mengimplementasikan Bar Chart Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Pie Chart	Mengimplementasikan Pie Chart Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Box Plot	Mengimplementasikan Box Plot Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Scatter Plot	Mengimplementasikan Scatter Plot Menggunakan `Matplotlib` Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Word Clouds	Mengimplementasikan Word Clouds Menggunakan `Wordclouds` Library Dengan Data Yang Relevan Dan Sesuai Dengan Kegunaan Plot/Grafik.
+Folium Maps	Mengimplementasikan London Maps Menggunakan `Folium`.
+Preprocessing	Student Melakukan Preproses Dataset Sebelum Menerapkan Visualisasi. | | Apakah Kode Berjalan Tanpa Ada Eror?
+Apakah Kode Berjalan Tanpa Ada Eror?	Seluruh Kode Berfungsi Dan Dibuat Dengan Benar.
+
+Readability
+Criteria	Meet Expectations
+Tertata Dengan Baik	Semua Cell Di Notebook Terdokumentasi Dengan Baik Dengan Markdown Pada Tiap Cell Untuk Penjelasan Kode.
+
+Analysis
+Criteria	Meet Expectations
+Area Plot	Menarik Informasi/Kesimpulan Berdasarkan Area Plot Yang Telah Student Buat
+Histogram	Menarik Informasi/Kesimpulan Berdasarkan Histogram Yang Telah Student Buat
+Bar Chart	Menarik Informasi/Kesimpulan Berdasarkan Bar Chart Yang Telah Student Buat
+Pie Chart	Menarik Informasi/Kesimpulan Berdasarkan Pie Chart Yang Telah Student Buat
+Box Plot	Menarik Informasi/Kesimpulan Berdasarkan Box Plot Yang Telah Student Buat
+Scatter Plot	Menarik Informasi/Kesimpulan Berdasarkan Scatter Plot Yang Telah Student Buat
+Overall Analysis	Menarik Informasi/Kesimpulan Dari Keseluruhan Plot Yang Dapat Menjawab Hipotesis.

@@ -1,0 +1,41 @@
+Projects Instructions
+
+Kamu bisa memilih untuk memulai sendiri dari awal dengan Notebook atau memulai dengan pre-compiled Notebook yang dapat kamu download dibawah. Jika kamu memilih untuk mengembangkan proyek kamu dengan komputer pribadi, kamu perlu mengikuti tahap-tahap berikut ini:
+
+    Download Dataset yang di perlukan di kaggle di sini, lalu save ke folder /dataset.
+    Buat sebuah Notebook baru, lalu rename file menjadi “PYTN_Assgn_2_<batch_number>_<nama>".
+    Lakukan metode statistik kepada dataset, seperti Central Tendencies, Intervals, Hypotesis Testing, dan semua metode statistik yang telah kamu pelajari dalam course ini. Scroll ke bawah, ke bagian Project Rubric untuk melihat kriteria yang harus dipenuhi. Kamu dapat memilih kolom apa saja yang kamu inginkan.
+    Kumpulkan informasi menggunakan analisis kamu.
+
+Penting!
+
+Push assignment yang telah kalian buat ke dalam akun github kalian masing-masing.
+
+Buat sebuah file .txt dengan notepad atau code editor pilihan kalian dan masukan link repository assignment kalian dalam file .txt tersebut. Unggah file .txt tersebut pada Google Classroom.
+
+Submission Assignment valid jika link repository assignment kalian dapat diakses untuk kemudian dinilai oleh Hacktiv8 PTP Program Code Reviewer.
+Projects Rubric
+
+Code Review
+Criteria	Meet Expectations
+Measure of Central Tendency: Mean	Student Mengimplementasikan Mean dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Measure of Central Tendency: Median	Student Mengimplementasikan Median dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Measure of Central Tendency: Modus	Student Mengimplementasikan Modus dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Measure of Spread: Range	Student Mengimplementasikan Range dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Measure of Spread: Variance
+	Student Mengimplementasikan Variance dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Measure of Spread: Standard Deviation
+	Student Mengimplementasikan SD dari Kolom/Data Spesifik Menggunakan Pandas, Numpy, Atau Scipy
+Probability Distribution	Student Menganalisa Distribusi Data Dan Menarik Informasi Dari Distribusi Tersebut
+Confidence Intervals	Mengimplementasikan Confidence Intervals
+Hypothesis Testing	Membuat 1 Hipotesis Dan Menarik Kesimpulan Dari Data Yang Ada
+Preprocessing	Student Melakukan Preproses Dataset Sebelum Melakukan Proses Statistik.
+Apakah Kode Berjalan Tanpa Ada Error?	Kode Berjalan Tanpa Ada Eror. Seluruh Kode Berfungsi Dan Dibuat Dengan Benar.
+
+Readability
+Criteria	Meet Expectations
+Tertata Dengan Baik	Semua Cell Di Notebook Terdokumentasi Dengan Baik Dengan Markdown Pada Tiap Cell Untuk Penjelasan Kode.
+
+Analysis
+Criteria	Meet Expectations
+Overall Analysis	Menarik Informasi/Kesimpulan Dari Keseluruhan Plot Yang Dapat Menjawab Hipotesis.

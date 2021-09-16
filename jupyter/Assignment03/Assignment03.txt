@@ -1,0 +1,103 @@
+Project Overview
+
+The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
+
+There are four datasets:
+
+    bank-additional-full.csv with all examples (41188) and 20 inputs, ordered by date (from May 2008 to November 2010), very close to the data analyzed in [Moro et al., 2014]
+    bank-additional.csv with 10% of the examples (4119), randomly selected from 1), and 20 inputs.
+    bank-full.csv with all examples and 17 inputs, ordered by date (older version of this dataset with less inputs).
+    bank.csv with 10% of the examples and 17 inputs, randomly selected from 3 (older version of this dataset with less inputs).
+
+The smallest datasets are provided to test more computationally demanding machine learning algorithms (e.g., SVM).
+
+The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
+
+This dataset contains:
+
+Input variables:
+
+# bank client data:
+1 - age (numeric)
+2 - job : type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
+3 - marital : marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)
+4 - education (categorical: 'basic.4y','basic.6y','basic.9y','high.school','illiterate','professional.course','university.degree','unknown')
+5 - default: has credit in default? (categorical: 'no', 'yes', 'unknown')
+6 - housing: has housing loan? (categorical: 'no', 'yes', 'unknown')
+7 - loan: has personal loan? (categorical: 'no', 'yes', 'unknown')
+# related with the last contact of the current campaign:
+8 - contact: contact communication type (categorical: 'cellular', 'telephone')
+9 - month: last contact month of year (categorical: 'jan', 'feb', 'mar', ..., 'nov', 'dec')
+10 - day_of_week: last contact day of the week (categorical: 'mon', 'tue', 'wed', 'thu', 'fri')
+11 - duration: last contact duration, in seconds (numeric). Important note: this attribute highly affects the output target (e.g., if duration=0 then y='no'). Yet, the duration is not known before a call is performed. Also, after the end of the call y is obviously known. Thus, this input should only be included for benchmark purposes and should be discarded if the intention is to have a realistic predictive model.
+
+# other attributes:
+12 - campaign: number of contacts performed during this campaign and for this client (numeric, includes last contact)
+13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
+14 - previous: number of contacts performed before this campaign and for this client (numeric)
+15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure', 'nonexistent', 'success')
+# social and economic context attributes
+16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
+17 - cons.price.idx: consumer price index - monthly indicator (numeric)
+18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)
+19 - euribor3m: euribor 3 month rate - daily indicator (numeric)
+20 - nr.employed: number of employees - quarterly indicator (numeric)
+
+Output variable (desired target):
+21 - y - has the client subscribed a term deposit? (binary: 'yes', 'no')
+
+
+Starting from Scratch
+
+Tidak ada template untuk assignment kali ini, jadi kalian harus memulai dari awal. Kamu dapat membuat file jupyter notebook kamu sendiri dan upload ke github ketika selesai.
+
+
+Project Instructions & Rubric
+How will this project be evaluated
+
+Proyek kamu akan dinilai oleh Hacktiv8 PTP Program Code Reviewer berdasarkan rubrik. Pastikan untuk me-review proyek kamu terlebih dahulu sebelum submit. Semua kriteria harus terpenuhi untuk mendapatkan nilai.
+
+Rubrik menjadi sumber utama ketika mengembangkan proyek. Bookmark halaman rubrik sehingga lebih mudah diakses!
+Submission Instructions
+
+Jika kamu memilih untuk mengembangkan proyek kamu dengan komputer pribadi, kamu perlu meng-upload file kamu ke github.
+Projects Instructions
+
+Tidak ada template untuk assignment kali ini, jadi kamu perlu mengikuti tahap-tahap berikut ini:
+
+    Download Dataset yang di perlukan dari repositori di sini, lalu save ke folder /dataset.
+    Buat sebuah Notebook baru, lalu rename file menjadi “PYTN_Assign_3_<batch_number>_<nama>".
+    Bersihkan dan preproses Dataset kamu.
+    Bangun model menggunakan Logistic Regression, KNN, SVM, Naive Bayes, Decision Tree, dan Random Forest.
+    Pilih 1 algoritma yang kamu anggap paling sesuai lalu jelaskan mengapa.
+    Kumpulkan informasi melalui analisis kamu.
+
+Penting!
+
+Push assignment yang telah kalian buat ke dalam akun github kalian masing-masing.
+
+Buat sebuah file .txt dengan notepad atau code editor pilihan kalian dan masukan link repository assignment kalian dalam file .txt tersebut. Unggah file .txt tersebut pada Google Classroom.
+
+Submission Assignment valid jika link repository assignment kalian dapat diakses untuk kemudian dinilai oleh Hacktiv8 PTP Program Code Reviewer.
+Projects Rubric
+
+Code Review
+Criteria	Meet Expectations
+Logistic Regression	Mengimplementasikan Logistic Regression Dengan Scikit-Learn
+K-Nearest Neighbors	Mengimplementasikan K-Nearest Neighbors Dengan Scikit-Learn
+Support Vector Machine	Mengimplementasikan Support Vector Machine Dengan Scikit-Learn
+Decision Tree	Mengimplementasikan Decision Tree Dengan Scikit-Learn
+Random Forest	Mengimplementasikan Random Forest Dengan Scikit-Learn
+Naive Bayes	Mengimplementasikan Naive Bayes Dengan Scikit-Learn
+Confusion Matrix	Mengimpelentasikan Confusion Matrix Regression Dengan Scikit-Learn
+Visualization	Menganalisa Data Menggunakan Setidaknya 2 Tipe Grafik/Plot.
+Preprocessing	Melakukan Preproses Dataset Sebelum Melakukan Penelitian Lebih Dalam.
+Apakah Kode Berjalan Tanpa Ada Eror?	Kode Berjalan Tanpa Ada Eror. Seluruh Kode Berfungsi Dan Dibuat Dengan Benar.
+
+Readibility
+Criteria	Meet Expectations
+Tertata Dengan Baik	Semua Cell Di Notebook Terdokumentasi Dengan Baik Dengan Markdown Pada Tiap Cell Untuk Penjelasan Kode.
+
+Analysis
+Criteria	Meet Expectations
+Algorithm Analysis	Student Menjelaskan Alasan Mengapa Memilih Menggunakan Algoritma Tersebut Untuk Membuat Model.
